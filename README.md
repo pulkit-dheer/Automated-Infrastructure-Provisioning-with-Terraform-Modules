@@ -87,6 +87,7 @@ If everything looks good, apply the configuration to create the resources.
 ```
 terraform apply
 ```
+![terraform apply]()
 
 ***Accessing the EC2 Instances***
 
