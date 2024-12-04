@@ -40,7 +40,8 @@ This project demonstrates how to set up a basic AWS architecture using Terraform
 - ALB Module: Configures the ALB, target group, and listener for routing traffic.
 
 
-Prerequisites
+## Prerequisites
+
 1. **Terraform**: Ensure you have Terraform installed. You can download it from here.
 2. **AWS Account**: You need an AWS account and access to create resources (VPC, EC2, Security Groups, etc.).
 3. **AWS CLI**: Ensure the AWS CLI is configured with your credentials. Run aws configure to set up your credentials.
@@ -134,10 +135,14 @@ aws_security_group: Defines the security group and its ingress/egress rules.
 This module creates a Virtual Private Cloud (VPC), subnets, route tables, and an internet gateway.
 
 Resources:
-aws_vpc: Creates the VPC.
-aws_subnet: Creates public subnets.
-aws_internet_gateway: Attaches an internet gateway to the VPC.
-aws_route_table & aws_route_table_association: Configure routing for the subnets.
+
+``aws_vpc``: Creates the VPC.
+
+``aws_subnet``: Creates public subnets.
+
+``aws_internet_gateway``: Attaches an internet gateway to the VPC.
+
+``aws_route_table & aws_route_table_association``: Configure routing for the subnets.
 
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository, create a branch, and submit a pull request.
