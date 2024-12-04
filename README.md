@@ -87,7 +87,7 @@ If everything looks good, apply the configuration to create the resources.
 ```
 terraform apply
 ```
-![terraform apply]()
+![terraform apply](https://github.com/pulkit-dheer/Automated-Infrastructure-Provisioning-with-Terraform-Modules/blob/main/images/terraform_apply.png)
 
 ***Accessing the EC2 Instances***
 
