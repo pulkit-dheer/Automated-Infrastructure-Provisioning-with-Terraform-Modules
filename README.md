@@ -1,5 +1,8 @@
 # Automated-Infrastructure-Provisioning-with-Terraform-Modules
 
+![instance_running.png](https://github.com/pulkit-dheer/Automated-Infrastructure-Provisioning-with-Terraform-Modules/blob/main/images/instance_running.png)
+
+
 This project demonstrates how to set up a basic AWS architecture using Terraform. It includes the creation of a VPC, subnets, security groups, EC2 instances, an Application Load Balancer (ALB), and more. The resources are all defined in a modular and reusable way.
 
 ## Project Structure
